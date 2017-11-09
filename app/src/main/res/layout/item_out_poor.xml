@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="6dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/line_normal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/id_index_gallery_item_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_index_gallery_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_index_gallery_item_image"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:text="朱二文"
+            android:textColor="@color/secondary_text"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_helper_ing"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="14dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/line_normal_green"
+            android:text="已脱贫"
+            android:textColor="@color/green"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_index_gallery_item_text"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="3dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:text="许昌市扶贫办公室许昌市扶贫办公室"
+        android:textColor="@color/secondary_text"
+        android:textSize="12dp"/>
+
+</LinearLayout>

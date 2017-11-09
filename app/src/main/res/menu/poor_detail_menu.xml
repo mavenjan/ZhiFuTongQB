@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/family_member"
+        android:orderInCategory="100"
+        android:title="家庭成员"
+        />
+
+    <item
+        android:id="@+id/production_life"
+        android:orderInCategory="100"
+        android:title="生产生活"
+        />
+
+    <item
+        android:id="@+id/income_child"
+        android:orderInCategory="100"
+        android:title="收入情况"
+        />
+</menu>

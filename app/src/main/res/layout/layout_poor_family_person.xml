@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@color/common_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--姓名-->
+            <LinearLayout
+                android:id="@+id/ll_name"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/commontext"
+                    android:text="@string/name"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--性别-->
+            <LinearLayout
+                android:id="@+id/ll_sex"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    style="@style/commontext"
+                    android:text="@string/sex"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--证件类型-->
+            <LinearLayout
+                android:id="@+id/ll_certificate_type"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_certificate_type"
+                    style="@style/commontext"
+                    android:text="@string/certificate_type"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_certificate_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--证件号码-->
+            <LinearLayout
+                android:id="@+id/ll_certificate_id"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_certificate_id"
+                    style="@style/commontext"
+                    android:text="@string/certificate_id"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_certificate_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--民族-->
+            <LinearLayout
+                android:id="@+id/ll_nation"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_nation"
+                    style="@style/commontext"
+                    android:text="@string/nation"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_nation"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--政治面貌-->
+            <LinearLayout
+                android:id="@+id/ll_politics_status"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_politics_status"
+                    style="@style/commontext"
+                    android:text="@string/politics_status"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_politics_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--教育程度-->
+            <LinearLayout
+                android:id="@+id/ll_degree_of_education"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_degree_of_education"
+                    style="@style/commontext"
+                    android:text="@string/degree_of_education"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_degree_of_education"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--在校生状况-->
+            <LinearLayout
+                android:id="@+id/ll_student_status"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_student_status"
+                    style="@style/commontext"
+                    android:text="@string/student_status"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_student_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--健康状态-->
+            <LinearLayout
+                android:id="@+id/ll_health_status"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_health_condition"
+                    style="@style/commontext"
+                    android:text="@string/health_condition"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_health_condition"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--劳动技能-->
+            <LinearLayout
+                android:id="@+id/ll_labor_skills"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_labor_skills"
+                    style="@style/commontext"
+                    android:text="@string/labor_skills"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_labor_skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--务工情况-->
+            <LinearLayout
+                android:id="@+id/ll_working_conditions"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_working_conditions"
+                    style="@style/commontext"
+                    android:text="@string/working_conditions"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_working_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--务工时间-->
+            <LinearLayout
+                android:id="@+id/ll_working_time"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_working_time"
+                    style="@style/commontext"
+                    android:text="@string/working_time"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_working_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--是否现役军人-->
+            <LinearLayout
+                android:id="@+id/ll_soldiers_on_service"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_soldiers_on_service"
+                    style="@style/commontext"
+                    android:text="@string/soldiers_on_service"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_soldiers_on_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--与户主关系-->
+            <LinearLayout
+                android:id="@+id/ll_relationship_with_householder"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_relationship_with_householder"
+                    style="@style/commontext"
+                    android:text="@string/relationship_with_householder"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_relationship_with_householder"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--城乡居民基本医疗保险-->
+            <LinearLayout
+                android:id="@+id/ll_XinNongHe"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_XinNongHe"
+                    style="@style/commontext"
+                    android:text="@string/XinNongHe"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_XinNongHe"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--城乡居民社会养老保险-->
+            <LinearLayout
+                android:id="@+id/ll_Old_age_insurance"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_Old_age_insurance"
+                    style="@style/commontext"
+                    android:text="@string/Old_age_insurance"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_Old_age_insurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--城镇职工基本养老保险-->
+            <LinearLayout
+                android:id="@+id/ll_ChengZhenBaoXian"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_ChengZhenBaoXian"
+                    style="@style/commontext"
+                    android:text="@string/ChengZhenBaoXian"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/et_show_ChengZhenBaoXian"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+            <!--大病保险-->
+            <LinearLayout
+                android:id="@+id/ll_DaBingBaoXian"
+                style="@style/commonLinearLayout">
+
+                <TextView
+                    android:id="@+id/tv_DaBingBaoXian"
+                    style="@style/commontext"
+                    android:text="@string/DaBingBaoXian"
+                    android:textColor="@color/primary_text"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_show_DaBingBaoXian"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/primary_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

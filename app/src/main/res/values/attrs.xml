@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZTitleBar">
+        <attr name="ztitleBarTitle" format="string"/>
+        <attr name="ztitleBarLeftImage" format="reference"/>
+        <attr name="ztitleBarRightImage" format="reference"/>
+        <attr name="ztitleBarBackground" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="ZButton">
+        <attr name="button_corners" format="dimension"/>
+        <attr name="button_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="PullScrollView">
+        <attr name="header" format="reference"/>
+        <attr name="headerHeight" format="dimension"/>
+        <attr name="headerVisibleHeight" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PullToZoomScrollView">
+        <attr name="scrollHeadView" format="reference"/>
+        <attr name="scrollContentView" format="reference"/>
+        <attr name="scrollZoomView" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomListView">
+        <attr name="listHeadView" format="reference"/>
+        <attr name="isHeadParallax" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference"/>
+        <attr name="contentView" format="reference"/>
+        <attr name="zoomView" format="reference"/>
+        <attr name="isHeaderParallax" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedLetterView">
+        <attr name="titleText" format="string"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="backgroundColorValue" format="color"/>
+    </declare-styleable>
+
+</resources>

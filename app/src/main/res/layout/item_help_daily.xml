@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <!-- 第一个子view，显示ListView数据内容-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_daily_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="黄方意"
+                android:textColor="#576B95"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingBottom="8dp"
+                android:text="今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊今天真是个好日子啊啊"
+                android:textColor="#353535"
+                android:textSize="16sp"/>
+
+            <GridView
+                android:id="@+id/gv_help_daily_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="70dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_daily_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="合肥市蜀山区黄山路105"
+                android:textColor="#576B95"
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="一分钟前"
+                    android:textColor="#CDCDCD"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/tv_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_time"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="删除"
+                    android:textColor="#576B95"
+                    android:textSize="12sp"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

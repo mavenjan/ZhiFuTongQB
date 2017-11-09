@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cdt_help_daily"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nxt.net.zhifutongqb.widget.ZTitleBar
+        android:id="@+id/ztitlebar"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="bottom"
+        app:ztitleBarRightImage="@drawable/icon_add"
+        app:ztitleBarTitle="帮扶日志"
+    />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:background="@color/white"
+        android:layout_marginTop="73dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listview_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/common_bg"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:contentDescription="用来展示图片的viewpager"
+        android:gravity="center"
+        android:visibility="invisible"/>
+</android.support.design.widget.CoordinatorLayout>

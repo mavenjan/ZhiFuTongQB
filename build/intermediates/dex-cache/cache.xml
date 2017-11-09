@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\pre-dexed\release\httpmime-4.1.2_5b6d67aeba26915dd7448f604fb6786938a62d9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3b87bf655575d6c26cb275ccdc2ac9fa61b0966">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\pre-dexed\release\BaiduLBS_Android_e0927ec89f8432c441cdc9b2bd07f8632cb71e99.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3b87bf655575d6c26cb275ccdc2ac9fa61b0966">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_e0927ec89f8432c441cdc9b2bd07f8632cb71e99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7435c0ee7b062bc64b9067f5861ece0ed9b0edf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\libs\httpmime-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.2_5b6d67aeba26915dd7448f604fb6786938a62d9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="41e0274cdb0b35b576ddc598e7c5f6d9de0e55d0">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2e0635b105c36b2fdf5077220952a00e970a6b44\classes.dex" />
+    </item>
+
+</items>
