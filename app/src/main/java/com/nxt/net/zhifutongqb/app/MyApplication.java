@@ -22,6 +22,7 @@ import com.lzy.okgo.model.HttpHeaders;
 import com.lzy.okgo.model.HttpParams;
 import com.nxt.net.zhifutongqb.utils.LocationService;
 import com.nxt.net.zhifutongqb.utils.GlideImageLoader;
+import com.nxt.net.zhifutongqb.utils.SharePrefHelper;
 import com.nxt.net.zhifutongqb.utils.ZPreferenceUtils;
 
 import java.util.LinkedList;
@@ -54,6 +55,8 @@ public class MyApplication extends Application {
         MultiDex.install(this);
         Fresco.initialize(this);
         applicationContext = this;
+
+        SharePrefHelper.getInstance(this);
 
         // 在使用 SDK 各组间之前初始化 context 信息，传入 ApplicationContext
         SDKInitializer.initialize(this);

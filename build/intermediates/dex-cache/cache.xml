@@ -30,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7435c0ee7b062bc64b9067f5861ece0ed9b0edf3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Git\GitRepository\ZhiFuTongQB\app\libs\httpmime-4.1.2.jar"
         jumboMode="true"
         optimize="true"
@@ -52,8 +43,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="41e0274cdb0b35b576ddc598e7c5f6d9de0e55d0">
+        sha1="50672455e3c362849bf4579b2be22699a2092abc">
         <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2e0635b105c36b2fdf5077220952a00e970a6b44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="E:\Git\GitRepository\ZhiFuTongQB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7435c0ee7b062bc64b9067f5861ece0ed9b0edf3\classes.dex" />
     </item>
 
 </items>
